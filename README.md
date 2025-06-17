@@ -35,3 +35,7 @@ Quralyt is designed to support focused Quran reading, without modern digital clu
 
 For questions or collaboration:  
 📧 lytdesign@hotmail.com
+
+© 2025 Lytdesign. All rights reserved.  
+This project and all related designs, concepts, and branding elements are protected under copyright law.
+
