@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30597154/README.md)
 <div align="center">
 
 <img src="./assets/logo.svg" alt="QuraLYT" width="120" />
@@ -270,14 +269,37 @@ Many of these languages have little or no Qur'an resources available today. This
 
 <div align="center">
 
-<img src="./assets/screenshots/home.png" width="200" alt="QuraLYT home screen" />
-<img src="./assets/screenshots/reading.png" width="200" alt="QuraLYT reading view" />
-<img src="./assets/screenshots/themes.png" width="200" alt="QuraLYT themes" />
-<img src="./assets/screenshots/bookmarks.png" width="200" alt="QuraLYT bookmarks" />
+### 📖 Reading View
+Calm, distraction free Qur'an reading
+
+<img src="./assets/screenshots/reading.png" width="260" alt="QuraLYT reading view" />
+
+<br/><br/>
+
+### 🏠 Home Screen
+The entry point into QuraLYT
+
+<img src="./assets/screenshots/home.png" width="260" alt="QuraLYT home screen" />
+
+<br/><br/>
+
+### 🎨 Themes
+Calm, comfortable colour palettes for longer reading sessions
+
+<img src="./assets/screenshots/themes.png" width="260" alt="QuraLYT themes" />
+
+<br/><br/>
+
+### 🔖 Bookmark Page
+Your saved place in the Qur'an
+
+<img src="./assets/screenshots/bookmarks.png" width="260" alt="QuraLYT bookmarks" />
 
 </div>
 
-*More screenshots will be added as development progresses and major features are finalized.*
+<br/>
+
+*For more screenshots and live demo videos of QuraLYT in action, visit quralyt.com.*
 
 ---
 
