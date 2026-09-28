@@ -231,8 +231,8 @@ Many of these languages have little or no Qur'an resources available today. This
 <tr>
 <td align="center"><sub><b>Home</b><br />The entry point into QuraLYT</sub></td>
 <td align="center"><sub><b>Reading</b><br />Calm, distraction free reading</sub></td>
-<td align="center"><sub><b>Themes</b><br />Comfortable palettes for longer sessions</sub></td>
-<td align="center"><sub><b>Media Player</b><br />Your saved place in the Qur'an</sub></td>
+<td align="center"><sub><b>Themes</b><br />Stunning palettes for longer sessions</sub></td>
+<td align="center"><sub><b>Media Player</b><br />Peaceful listning of the Qur'an</sub></td>
 </tr>
 </table>
 
