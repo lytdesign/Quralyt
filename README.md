@@ -223,7 +223,7 @@ Many of these languages have little or no Qur'an resources available today. This
 
 <table>
 <tr>
-<td width="25%" align="center"><img src="assets/screenshots/home.png" alt="QuraLYT home screen" width="100%" /></td>
+<td width="25%" align="center"><img src="assets/screenshots/home.svg" alt="QuraLYT home screen" width="100%" /></td>
 <td width="25%" align="center"><img src="assets/screenshots/reading.png" alt="QuraLYT reading view" width="100%" /></td>
 <td width="25%" align="center"><img src="assets/screenshots/themes.png" alt="QuraLYT themes" width="100%" /></td>
 <td width="25%" align="center"><img src="assets/screenshots/media player.png" alt="QuraLYT Media Player" width="100%" /></td>
