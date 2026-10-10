@@ -244,7 +244,7 @@ Many of these languages have little or no Qur'an resources available today. This
 
 <br />
 
-## Our Promise
+## My Promise
 
 | | |
 | :--- | :--- |
