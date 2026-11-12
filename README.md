@@ -284,7 +284,15 @@ There are no investors, no advertising, and no user profiling. If you would like
 
 ## License
 
-Qur'an text, translations, audio, and other Islamic resources are used in accordance with their respective licenses and attribution requirements. Content and translations are used under scholarly guidance and are labeled accordingly. App source licensing details will be finalized closer to public release.
+QuraLYT™ — Proprietary Software
+
+© 2026 LYTDesign™. All rights reserved.
+
+QuraLYT is proprietary, closed-source software developed by LYTDesign™.
+
+This public repository is provided for project information and documentation. No permission is granted to copy, modify, distribute or commercially exploit QuraLYT's proprietary application code or original designs without written authorization.
+
+Qur'an text, translations, audio recordings, fonts, software libraries and other third-party resources remain subject to their respective licences and attribution requirements.
 
 ## Credits
 
