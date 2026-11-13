@@ -1,30 +1,30 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="QuraLYT. Read with clarity. Reflect with ease. A free, ad free, privacy first Qur'an app, free for every Muslim, forever." width="100%" />
+<img src="assets/banner.svg" alt="QuraLYT. Read with clarity. Reflect with ease. A privacy first Qur'an app with a free core experience for every Muslim." width="100%" />
 
 <br />
 
-![Status](https://img.shields.io/badge/Status-In%20Development-E8B84B?style=for-the-badge&labelColor=26114D)
-![Price](https://img.shields.io/badge/Price-Free%20Forever-26114D?style=for-the-badge&labelColor=191850)
-![Android](https://img.shields.io/badge/Android-Planned-26114D?style=for-the-badge&logo=android&logoColor=white&labelColor=191850)
+![Status](https://img.shields.io/badge/Status-Prelaunch%20Development-E8B84B?style=for-the-badge&labelColor=26114D)
+![Price](https://img.shields.io/badge/Core-Free%20Forever-26114D?style=for-the-badge&labelColor=191850)
+![Android](https://img.shields.io/badge/Android-In%20Testing-26114D?style=for-the-badge&logo=android&logoColor=white&labelColor=191850)
 ![iOS](https://img.shields.io/badge/iOS-Planned-26114D?style=for-the-badge&logo=apple&logoColor=white&labelColor=191850)
-![Built with FlutterFlow](https://img.shields.io/badge/Built%20with-FlutterFlow-26114D?style=for-the-badge&labelColor=191850)
+![Built with FlutterFlow](https://img.shields.io/badge/Built%20with-Flutter%20%2B%20FlutterFlow-26114D?style=for-the-badge&labelColor=191850)
 ![Mission](https://img.shields.io/badge/Mission-Sadaqah%20Jariyah-E8B84B?style=for-the-badge&labelColor=26114D)
 
-[**About**](#about) &nbsp;·&nbsp; [**Design**](#design-system) &nbsp;·&nbsp; [**Features**](#reading-experience) &nbsp;·&nbsp; [**Roadmap**](#roadmap) &nbsp;·&nbsp; [**Screenshots**](#screenshots) &nbsp;·&nbsp; [**Community**](#community)
+[**About**](#about) &nbsp;·&nbsp; [**Design**](#design-system) &nbsp;·&nbsp; [**Features**](#reading-experience) &nbsp;·&nbsp; [**Roadmap**](#roadmap) &nbsp;·&nbsp; [**Screenshots**](#screenshots) &nbsp;·&nbsp; [**Support**](#support-quralyt) &nbsp;·&nbsp; [**Credits**](#credits)
 
 </div>
 
 <br />
 
-**QuraLYT** is a free, ad free, privacy first Qur'an app. The Noble Qur'an, read, reflect, and understand, free for every Muslim, forever.
+**QuraLYT** is an ad free, privacy first Qur'an app. Its core reading and listening experience is free for every Muslim, forever. Optional Pro and Elite experiences are planned for the future.
 
-*This repository is the documentation hub for QuraLYT: its philosophy, design system, accessibility principles, and long term roadmap, alongside the app itself.*
+*This public repository documents QuraLYT, its design, accessibility principles, features, and roadmap. It is not a public release of the proprietary application source code.*
 
 > [!NOTE]
-> **Current status.** QuraLYT is in active development, built by one person with no investors and no advertising. The design system and user interface are largely complete, and current work is focused on application logic, authenticated resource integration, feature implementation, and testing. I am also in contact with respected organizations and content providers to make sure Qur'an text, translations, audio, and other resources are authentic, properly licensed, and accurately attributed before public release.
+> **Current status.** QuraLYT is an independently developed Android app in prelaunch testing. Its core reader, translations, Tafsir, LYTSnap sharing, bookmarks, and audio playback have been implemented. Current work includes final fixes, device testing, accessibility improvements, content verification, and optional TTS voice delivery. Not every feature is release ready yet.
 >
-> Not yet available on Google Play or the App Store. Coming soon, In sha Allah.
+> QuraLYT is not yet available on Google Play or the App Store. Android comes first; iOS is planned for later. In sha Allah.
 
 <br />
 
@@ -66,13 +66,11 @@ QuraLYT is designed to be welcoming to the entire Ummah, across different ages, 
 >
 > Today, the foundation is in place.
 >
-> The vision, however, is far greater than what one person can accomplish alone.
->
-> To bring QuraLYT to Muslims around the world, I believe it now needs the knowledge, experience, and support of the Ummah. Whether through scholarship, accessibility expertise, translations, development, design, testing, or simply sincere feedback, every contribution can help make QuraLYT better for everyone.
+> The work has continued through independent development, careful testing, and access to valuable Qur'an resources provided by others. I am sincerely grateful to the people and organisations who have helped make this possible. Their contributions are recognised in the Credits section.
 >
 > I pray that this project becomes a lasting source of benefit, a means of bringing people closer to the Qur'an, and a form of sadaqah jariyah for everyone who helps it grow.
 >
-> QuraLYT is a project of LYTDesign™, based in Norway, but it is built and maintained by one person, not a company or a team.
+> QuraLYT is a project of LYTDesign™ in Norway, independently built and maintained by one person.
 
 <br />
 
@@ -80,7 +78,7 @@ QuraLYT is designed to be welcoming to the entire Ummah, across different ages, 
 
 QuraLYT's interface is built on a **box based cognitive UI system**, the same underlying design language LYTDesign applies across its ecosystem. Within QuraLYT specifically, this system is branded **LYTGrid™**.
 
-Most apps bury features behind menus, tabs, and nested navigation, forcing the reader to remember where something lives instead of just seeing it. LYTGrid takes a different approach: every feature gets its own dedicated, visible space on screen. Nothing is hidden, nothing is nested more than one layer deep, and the reader never has to hold navigation logic in their head while trying to focus on the Qur'an.
+Many apps bury features behind menus and nested navigation, forcing readers to remember where each action lives. LYTGrid takes a different approach: important features have clear, predictable spaces on screen, with navigation kept as straightforward as possible so readers can focus on the Qur'an.
 
 | Reduced cognitive load | Consistency for elderly and neurodivergent readers | Clarity over depth |
 | :--- | :--- | :--- |
@@ -109,16 +107,20 @@ Within that system, QuraLYT's visual language is built to feel close to the trad
 - Complete Qur'an, all 114 Surahs, every Ayah
 - **LYTFocus™:** Full Screen Mode, one tap to remove every distraction
 - Ribbon style bookmarks, inspired by the traditional Mushaf, with reading progress saved
-- 114 original Surah illustrations throughout the app
-- Immersive classic audio, paired with original Surah artwork for a unique listening atmosphere
+- 114 Surah artworks throughout the app
+- Immersive Classic Audio Player, paired with Surah artwork, reciter selection, and playback controls
+- Streaming recitation, with optional downloads for offline listening
+- Continue Reading, with saved Surah, ayah, and reading progress
+- Multiple translation resources and Tafsir displayed with their source information
 - No account required to read the Qur'an
 
 ### Learning & Reflection
 
 - **LYTTouch™:** touch and hold contextual help, right on screen, so features are discovered naturally instead of through manuals or help pages
-- **LYTSnap™:** a single tap to share a beautifully formatted ayah as an image or text, or continue into deeper reflection tools
-- Video reflections paired with Surah listening, showing the artwork and atmosphere created for each Surah
-- AI reflections and AI advanced search *(planned)*, to help readers find verses, topics, and deeper meaning through natural language
+- **LYTSnap™:** select and share Qur'an ayahs as formatted image cards or text
+- **Share Audio:** share Surah artwork and listening information through supported phone sharing options
+- **Tafsir:** read Ibn Kathir explanations alongside the relevant ayah or passage, with the applicable verse range shown
+- **Planned:** expanded visual and AI assisted reflection tools, described separately under QuraVision
 
 <br />
 
@@ -127,6 +129,8 @@ Within that system, QuraLYT's visual language is built to feel close to the trad
 Accessibility has guided QuraLYT from the beginning, not as a feature added later. Every screen is designed to be clear, calm, readable, and easy to navigate for as many people as possible. I continue to improve accessibility throughout development, with the goal of aligning with **WCAG 2.2 AA**.
 
 This is also part of why the interface is built on LYTGrid: predictable, single-purpose boxes reduce the mental effort needed just to operate the app, which matters as much for accessibility as it does for calm reading.
+
+Optional offline text to speech for translations is being developed as an accessibility aid. Its voice download system is still under testing and is not yet a released feature. For Qur'an recitation, the dedicated audio player remains the appropriate choice.
 
 *Formal compliance badges will only be published once independently audited. I do not want to overclaim accessibility before it is verified.*
 
@@ -160,7 +164,9 @@ Beyond phone support today, the platform vision includes:
 
 ## Trust & Authenticity
 
-Every Qur'an text, translation, audio recitation, and future tafsir resource is selected with authenticity, proper licensing, and scholarly attribution in mind. Translations displayed in QuraLYT are translations of the meaning, not the divine word itself, and are clearly credited to their translators throughout the app. The Arabic text remains the primary source at all times.
+Qur'an text, translations, audio recitations, and Tafsir are selected with authenticity, licensing, and attribution in mind. Translations displayed in QuraLYT are translations of the meaning, not the divine word itself. Rowwad translations made available through QuranEnc are used under the conditions confirmed for QuraLYT. Tafsir is presented by the passage to which an explanation applies, rather than misleadingly treating every explanation as a separate commentary on a single ayah. The Arabic Qur'an remains the primary source at all times.
+
+Resource credits and permissions apply to specific works; they do not imply that any provider has endorsed QuraLYT.
 
 <br />
 
@@ -168,11 +174,11 @@ Every Qur'an text, translation, audio recitation, and future tafsir resource is 
 
 QuraLYT is built on a simple promise: the core Qur'an experience will always remain free. Every Muslim should be able to read, listen to, and reflect on the Qur'an without advertising, mandatory subscriptions, or locked essential features.
 
-For readers who want to go beyond a conventional Qur'an app, QuraLYT also offers optional Pro and Elite experiences. These are not about restricting access to the Qur'an. They are about expanding how people can engage with it, through additional personalization, enhanced reading environments, cross device experiences, and future features that help different readers connect with the Qur'an in ways that suit them.
+For readers who want to go beyond a conventional Qur'an app, QuraLYT plans optional Pro and Elite experiences. These are not about restricting access to the Qur'an. They are about expanding how people can engage with it, through additional personalization, enhanced reading environments, cross device experiences, and future features that help different readers connect with the Qur'an in ways that suit them.
 
-Elite represents QuraLYT's long term premium experience: the full set of premium themes, cloud backup across devices, multi user family profiles, and the platform capabilities planned for tablet, TV, and car use. It is intended for readers and families who want the most complete version of QuraLYT, while the core reading experience remains exactly as free as it is for everyone else.
+Elite is planned as QuraLYT's long term premium experience: the full set of premium themes, cloud backup across devices, multi user family profiles, and the platform capabilities planned for tablet, TV, and car use. It is intended for readers and families who want the most complete version of QuraLYT, while the core reading experience remains exactly as free as it is for everyone else.
 
-By choosing Pro or Elite, readers also help support the continued development of the free core experience, new translations, accessibility improvements, and long term maintenance for the benefit of the Ummah.
+When available, optional Pro and Elite purchases are intended to help support continued development of the free core experience, accessibility improvements, and long term maintenance for the benefit of the Ummah.
 
 <br />
 
@@ -195,7 +201,9 @@ Special reading modes include Full Screen Mode, Quiet Mode, Child Mode, Elderly 
 
 ## Languages
 
-**Initial languages:** Arabic, English, Urdu, Turkish, Indonesian
+**V1 interface languages:** English, Norwegian, Japanese, Bengali, Turkish, Indonesian, and Traditional Chinese.
+
+The Qur'an is read in Arabic. Translation availability is separate from interface language availability and depends on the source and language; not every translation is available in every language.
 
 **Long term vision, underserved languages, future phases:** Fulfulde, Bambara, Wolof, Mooré, Igbo, Mandinka, Lingala, Dinka, Tigrinya, and more planned.
 
@@ -208,14 +216,16 @@ Many of these languages have little or no Qur'an resources available today. This
 | Stage | Status |
 | :--- | :--- |
 | Core UI design system | ✅ Done |
-| Responsive layouts (phone, tablet, desktop) | ✅ Done |
-| Application logic and feature implementation | 🔄 In progress |
-| Resource integration and testing | 🔄 In progress |
-| Public beta | ⏳ Planned |
-| Version 1 release | ⏳ Planned |
-| Expanded translations and learning features | ⏳ Planned |
+| Android phone interface and core reading experience | ✅ Implemented |
+| Translation, Tafsir, LYTSnap, and audio features | ✅ Implemented; final verification ongoing |
+| Recitation downloads, scheduling, and media controls | 🔄 Device testing |
+| Optional offline TTS and voice downloads | 🔄 Under testing |
+| Content, licensing, accessibility, and release checks | 🔄 In progress |
+| Public Android beta | ⏳ Planned |
+| Android V1 release | ⏳ Planned |
+| iOS, tablet, TV, car, and expanded learning features | ⏳ Future phases |
 
-*Planned documentation as the project matures: architecture overview, accessibility audit results, API references, contribution guides, and a changelog, all within this repository.*
+*Further public documentation may include release notes, accessibility findings, and source acknowledgements. This documentation repository is not an invitation to modify QuraLYT's proprietary app code.*
 
 <br />
 
@@ -232,13 +242,13 @@ Many of these languages have little or no Qur'an resources available today. This
 <td align="center"><sub><b>Home</b><br />The entry point into QuraLYT</sub></td>
 <td align="center"><sub><b>Reading</b><br />Calm, distraction free reading</sub></td>
 <td align="center"><sub><b>Themes</b><br />Calm palettes</sub></td>
-<td align="center"><sub><b>Media Player</b><br />Peaceful listning of the Qur'an</sub></td>
+<td align="center"><sub><b>Media Player</b><br />Peaceful listening to the Qur'an</sub></td>
 </tr>
 </table>
 
 <div align="center">
 
-*For more screenshots and live demo videos of QuraLYT in action, visit [quralyt.com](https://quralyt.com).*
+*For official QuraLYT information and updates, visit [quralyt.com](https://quralyt.com).*
 
 </div>
 
@@ -251,20 +261,6 @@ Many of these languages have little or no Qur'an resources available today. This
 | Free core Qur'an reading, forever. | No advertising. |
 | No tracking. | Respect for the Noble Qur'an. |
 | Accessibility from the beginning, not as an afterthought. | Authentic resources with proper licensing and attribution. |
-
-<br />
-
-## Community
-
-QuraLYT is currently in active development, and there are several ways to get involved as the project grows:
-
-| | |
-| :--- | :--- |
-| **Translation reviewers**<br />Helping verify accuracy and quality of translations. | **Accessibility testers**<br />Feedback from readers with different needs, devices, and reading preferences. |
-| **Scholars**<br />Guidance on Qur'an data, tafsir, and translation labeling. | **Designers**<br />Feedback on theming, artwork, and interaction design. |
-| **Developers**<br />Future contributions as the codebase matures. | |
-
-If any of this resonates with you, please reach out via [info@quralyt.com](mailto:info@quralyt.com).
 
 <br />
 
@@ -298,7 +294,15 @@ Qur'an text, translations, audio recordings, fonts, software libraries and other
 
 Built with the intention of sadaqah jariyah, for the Ummah, In sha Allah.
 
-*Organizations whose licensed resources help make QuraLYT possible will be formally acknowledged here once permissions and licensing are confirmed, named individually alongside the specific resource they provide, such as Qur'an text, translation, or audio recitation, rather than listed by name alone.*
+**With sincere gratitude to:**
+
+- **Rowwad Translation Center:** for the translations of Qur'anic meaning used in QuraLYT.
+- **QuranEnc:** for making Rowwad translations available and confirming permission to republish them in QuraLYT under the stated conditions.
+- **MP3Quran:** for granting permission to use the recitations of Sheikh Abdulrasheed Ali Sufi in QuraLYT. This acknowledgement concerns those recordings, not the entire MP3Quran catalogue.
+
+May Allah reward everyone who has helped make these resources available and accept their efforts. Ameen.
+
+*These are acknowledgements of specific resources and permissions, not claims of partnership or endorsement. Other third party resources remain credited under their applicable licences inside the app.*
 
 <br />
 
